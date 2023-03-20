@@ -8,5 +8,7 @@ public class HW_2 {
 //        System.out.println("byte     " + a);
 //        a = 70;
 //        System.out.println("byte    " + a);
+
+        // It was added to second commit
     }
 }
