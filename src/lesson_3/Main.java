@@ -193,5 +193,9 @@ public class Main {
                 System.out.println("ќщущени€ по погоде неизвестны, придетс€ выйти на улицу");
                 break;
         }
+
+
+
+
     }
 }
