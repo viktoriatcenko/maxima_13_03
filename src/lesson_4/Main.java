@@ -71,15 +71,21 @@ public class Main {
 
         // while
 
-//        int i = 10;
-//        System.out.println("Final countdown....");
-//        while (i > 0) {
-//            Thread.sleep(1000);
-//            System.out.println(i);
-//            i--; // i = i - 1
+        int i = 10;
+        System.out.println("Final countdown....");
+
+        while (i > 0) {
+            Thread.sleep(1000);
+            System.out.println(i);
+            i--; // i = i - 1
+        }
+        System.out.println("BOOOM!!!");
+
+//        for (int i = 1; i <= 5; i++) {
+//            System.out.println("Hello World");
 //        }
-//        System.out.println("BOOOM!!!");
 
 
     }
 }
+
