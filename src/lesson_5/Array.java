@@ -2,8 +2,9 @@ package lesson_5;
 
 public class Array {
     public static void main(String[] args) {
-        //        byte[] array2 = {12, 14, 16, 21};
-        //        byte a = 5;
+//        byte[] array2 = {12, 14, 16, 21};
+        byte a = 5;
+        a = 10;
 
 
         byte[] array1 = new byte[7];
@@ -59,5 +60,9 @@ public class Array {
 
 
         System.out.println("");
+    }
+
+    public static void print() {
+
     }
 }
