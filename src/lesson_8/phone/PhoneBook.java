@@ -26,4 +26,18 @@ public class PhoneBook {
             }
         }
     }
+
+    public Contact searchContact(String nameOfContact) {
+
+        return null;
+    }
+
+    public void deleteContact(String nameOfContact) {
+
+    }
+
+    public Contact editContact(String searchName, String newnameOfContact) {
+
+        return null;
+    }
 }

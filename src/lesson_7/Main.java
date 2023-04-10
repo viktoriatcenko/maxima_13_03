@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 //        Cat snezhok = new Cat("Snezhok Tretiy", 10);
 //        Cat ulichniy = new Cat(5);
-        Cat podval = new Cat("Podval'niy uzhas");
+//        Cat podval = new Cat("Podval'niy uzhas");
 
         Cat sluchainiy = new Cat();
 
