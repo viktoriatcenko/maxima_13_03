@@ -77,4 +77,13 @@ public class Cat {
     public void addKitten(Kitten kitten) {
         kittens[0] = kitten;
     }
+
+
+    public void print() {
+        System.out.println("It's not static method");
+    }
+
+    public static void printS() {
+        System.out.println("It's THE STATIC method");
+    }
 }

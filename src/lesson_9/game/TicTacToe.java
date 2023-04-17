@@ -47,6 +47,9 @@ public class TicTacToe {
 
 
     public void initTable() {
+        TicTacToe t = new TicTacToe();
+        t.playGame();
+
         for (int x = 0; x < table.length; x++) {
             for (int y = 0; y < table[x].length; y++) {
                 table[x][y] = '.';

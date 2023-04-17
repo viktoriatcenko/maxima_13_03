@@ -1,36 +1,10 @@
-package lesson_7.animals;
+package lesson_10.animals;
 
-public class Cat {
-    // поля
+public class Animal {
     private String name;
     private Integer age;
     private String parentName;
-
-
-    // конструктор
-
-
-    public Cat(String name, Integer age, String parentName) {
-        this.name = name;
-        this.age = age;
-        this.parentName = parentName;
-    }
-
-    public Cat(String name, Integer age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    public Cat(Integer age) {
-        this.age = age;
-    }
-
-    public Cat(String name) {
-        this.name = name;
-    }
-
-    public Cat() {
-    }
+    private String color;
 
     public String getName() {
         return name;
@@ -54,5 +28,17 @@ public class Cat {
 
     public void setParentName(String parentName) {
         this.parentName = parentName;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void sayHello() {
+        System.out.println("Hello, I'm the animal");
     }
 }

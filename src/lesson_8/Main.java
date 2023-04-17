@@ -1,7 +1,8 @@
 package lesson_8;
 
-public class Main {
+import lesson_10.Util;
 
+public class Main {
     /**
      * Методы-
      * Название класса (файла) должно четко отвечать на вопрос какие в нем собраны методы. Методы лучше разбивать по смыслам на разные классы (файлы), не должны быть все методы собраны в одном классе;
@@ -23,12 +24,19 @@ public class Main {
      * Модификаторы доступа метода			Сигнатура метода
      * */
     public static void main(String[] args) {
-        Cat snezhok = new Cat();
-        Kitten firstKitten = new Kitten("first");
-        Kitten secondKitten = new Kitten("second");
-        snezhok.addKitten(firstKitten);
-        snezhok.addKitten(secondKitten);
 
+//        Kitten firstKitten = new Kitten("first");
+//        Kitten secondKitten = new Kitten("second");
+//        snezhok.addKitten(firstKitten);
+//        snezhok.addKitten(secondKitten);
+
+
+        Cat snezhok = new Cat();
+        snezhok.print();
+
+        Cat.printS();
+
+        Util.printString("Hello");
 
     }
 }

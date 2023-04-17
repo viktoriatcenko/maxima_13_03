@@ -1,8 +1,9 @@
 package lesson_7.animals;
 
 public class Dog {
-    String name;
-    Integer age;
+    private String name;
+    private Integer age;
+    private String parentName;
 
     public Dog(String name, Integer age) {
         this.name = name;
