@@ -12,4 +12,10 @@ public interface Player {
 
     // Выводить карты на руках
     void showCardsOnHand();
+
+    boolean isInGame();
+
+    void setInGame(boolean inGame);
+
+    boolean isCroupier();
 }

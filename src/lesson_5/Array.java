@@ -16,6 +16,7 @@ public class Array {
         array1 [5] = 52;
         array1 [6] = 59;
 
+
         System.out.println(" Length of array is " + array1.length);
 
         // Task 1. Print array

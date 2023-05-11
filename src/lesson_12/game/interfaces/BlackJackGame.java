@@ -5,7 +5,7 @@ public interface BlackJackGame {
     void addPlayerInGame(Player player);
 
     // Выдать нам всем по 2 карты
-    void giveTwoCardsToEachPlayer();
+    void giveTwoCardsToEachPlayerOnStart();
 
     // Выдать дополнительной карте, если нужна
     void giveCardIfNeedToPlayer();
@@ -13,6 +13,7 @@ public interface BlackJackGame {
     // Определить и распечатать победителя
     void printWinner();
 
-
+    // Посчитать кол-во игроков в игре
+    int countAllPlayersInGame();
 
 }
