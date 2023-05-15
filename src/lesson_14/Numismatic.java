@@ -22,11 +22,11 @@ public class Numismatic {
          * */
 
 
-        Coin coin1 = new Coin(10, 20.2, "Russia", 2007);
-        Coin coin2 = new Coin(15, 20.7, "Belarus", 2001);
-        Coin coin3 = new Coin(5, 20.1, "England", 2010);
-        Coin coin4 = new Coin(2, 20.5, "Spain", 2011);
-        Coin coin5 = new Coin(5, 20.1, "England", 2010);
+        Coin coin1 = new Coin(5, 20.1, "Russia", 2001);
+        Coin coin2 = new Coin(5, 20.1, "Belarus", 2001);
+        Coin coin3 = new Coin(5, 20.1, "England", 2001);
+        Coin coin4 = new Coin(5, 20.1, "Spain", 2001);
+        Coin coin5 = new Coin(5, 20.1, "England", 2001);
 
         HashSet<Coin> coinCollection = new HashSet<>();
         coinCollection.add(coin1);

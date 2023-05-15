@@ -34,6 +34,8 @@ public class Main {
         Cat snezhok = new Cat();
         snezhok.print();
 
+        System.out.println(new Cat("SNezhok", 10, "Snezhkovich"));
+
         Cat.printS();
 
         Util.printString("Hello");
