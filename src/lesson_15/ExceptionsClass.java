@@ -21,7 +21,6 @@ public class ExceptionsClass {
 //        nullPointerException.printStackTrace();
 //        System.exit(1);
 
-
         System.out.println("-------------------------------------");
         String password = null;
         try {
@@ -37,6 +36,28 @@ public class ExceptionsClass {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        System.out.println("-------------------------------------");
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+        }
+
+        System.out.println("-------------------------------------");
+
+
+        try {
+            System.out.println(password.length());
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        } finally {
+            // Очистить кэш, внести запись в журнал логов, отравить уведомление о выполнении операции
+            // в блоке try
+        }
+
+
+
 
 
         System.out.println("Хочу, чтобы программа отработала и тут");
