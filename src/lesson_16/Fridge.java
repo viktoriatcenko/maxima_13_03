@@ -9,6 +9,7 @@ public class Fridge {
     // Constructor
 
     // Methods
+    @Deprecated
     public void putProducts(String name, Integer count) {
         if (prodList.containsKey(name)) {
             prodList.put(name, count + prodList.get(name));
